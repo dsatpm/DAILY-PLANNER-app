@@ -1,6 +1,14 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 16px;
+}
+
+h1 {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+h2 {
+  font-family: 'Cormorant Garamond', serif;
 }
 
 textarea {
@@ -31,18 +39,21 @@ textarea {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #a1a1a1;
   color: white;
+  border-radius: 15px;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #0055e8;
   color: white;
+  border-radius: 15px;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #00b819;
   color: white;
+  border-radius: 15px;
 }
 
 .saveBtn {
