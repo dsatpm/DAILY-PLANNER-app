@@ -1,8 +1,5 @@
 # Daily Planner
 
-
-## Description
-
 This daily planner is a pretty simple day planner where you can add reminders/meetings/chores to your daily 9-5 work day. It does not include hours before 9am or after 5pm. The current hour will display in blue, past hours display in gray, and future hours display in green. The deployed website can be found [here](https://dsatpm.github.io/day_planner/).
 
 
