@@ -1,6 +1,6 @@
 
 // Function that holds the entire app functionality
-$(function () {
+$(function() {
 
   //Waits until the DOM is completely loaded before executing the current date/time
   $(document).ready(function updateTime() {
@@ -9,8 +9,8 @@ $(function () {
     setInterval(updateTime, 1000);
   });
 
-  // Displays time in 24 hour format
-  var currentHour = dayjs().format('H')
+  // Sets current hour
+  var currentHour = dayjs().hour();
 
   // Iterates through each hour and determines what state of time the current time is
   $('.time-block').each(function () {
